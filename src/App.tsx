@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import * as actions from './store/actionCreators';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { shallowEqual, useDispatch, useSelector } from 'react-redux';
+import Dashboard from './components/Dashboard';
+import { HashRouter } from 'react-router-dom';
+import React from 'react';
 
-function App() {
+const App = () => {
+  const theme = useSelector((state: AppState) => state.theme, shallowEqual);
+  const dispatch = useDispatch();
+  const toggleTheme = React.useCallback(() => dispatch(actions.toggleTheme()), [dispatch]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <ThemeProvider theme={createTheme(theme)}>
+          <HashRouter>
+            <Dashboard toggleTheme={toggleTheme}/>
+          </HashRouter>
+        </ThemeProvider>
+      </div>
   );
-}
+};
 
 export default App;
