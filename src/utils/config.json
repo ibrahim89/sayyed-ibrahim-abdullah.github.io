@@ -27,5 +27,37 @@
       "name": "Kendriya Vidyalaya, Kathmandu",
       "degree": "Upto 5th class"
     }
+  ],
+  "experience": [
+    {
+      "timePeriod": "Apr'22 - Present",
+      "name": "Google",
+      "position": "Software Engineer L4",
+      "description": ""
+    },
+    {
+      "timePeriod": "Jul'18 - Apr'22",
+      "name": "JP Morgan Chase and Co.",
+      "position": "Associate Software Engineer",
+      "description": "Java, Big data and frontend development"
+    },
+    {
+      "timePeriod": "May'17 - Jul'17",
+      "name": "Autodesk",
+      "position": "Intern",
+      "description": "Augmented-Reality in shop floor management"
+    },
+    {
+      "timePeriod": "May'16 - Jul'16",
+      "name": "Tech Mahindra",
+      "position": "Intern",
+      "description": "Machine Translation and Natural Language Processing"
+    },
+    {
+      "timePeriod": "Nov'15 - Dec'15",
+      "name": "Darwin Travel Tech",
+      "position": "Intern",
+      "description": "Backend Development of website"
+    }
   ]
 }
