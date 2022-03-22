@@ -1,4 +1,31 @@
 {
   "author": "Tejesh Raut",
-  "authorWebpage": "https://tejesh-raut.github.io/"
+  "authorWebpage": "https://tejesh-raut.github.io/",
+  "education": [
+    {
+      "timePeriod": "2019-2021",
+      "name": "WorldQuant University",
+      "degree": "Master of Science (M.Sc.) in Financial Engineering"
+    },
+    {
+      "timePeriod": "2014-2018",
+      "name": "Indian Institute of Technology Bombay",
+      "degree": "Bachelor of Technology (B.Tech.) with honors in Computer Science & Engineering"
+    },
+    {
+      "timePeriod": "2012-2014",
+      "name": "Balbhim College, Beed",
+      "degree": "12th (HSC board)"
+    },
+    {
+      "timePeriod": "2006-2012",
+      "name": "St. Ann's school, Beed",
+      "degree": "10th (ICSE board)"
+    },
+    {
+      "timePeriod": "2003-2006",
+      "name": "Kendriya Vidyalaya, Kathmandu",
+      "degree": "Upto 5th class"
+    }
+  ]
 }

@@ -34,6 +34,10 @@ code {
   background-color: rgba(0, 0, 0, 0.62);
 }
 
+.education-card {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 480px) {
   .home {
     background-image: url("./images/background-mobile.jpg");
