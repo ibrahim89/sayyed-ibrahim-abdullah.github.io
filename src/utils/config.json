@@ -59,5 +59,69 @@
       "position": "Intern",
       "description": "Backend Development of website"
     }
-  ]
+  ],
+  "skills": {
+    "achievements": [
+      {
+        "title": "JEE Advanced",
+        "description": "Achieved All India rank 375 in JEE Advanced 2014 amongst 0.15 million candidates"
+      },
+      {
+        "title": "JEE Mains",
+        "description": "Secured All India percentile score 99.93 in JEE Mains 2014 amongst 1.4 million candidates"
+      },
+      {
+        "title": "IIM CAT",
+        "description": "Scored Overall Percentile 98.37 in IIM CAT(Common Admission Test) 2017"
+      },
+      {
+        "title": "Maharashtra Scholarship",
+        "description": "Awarded Maharashtra State Scholarship , 2009 with 99.99 percentile score in state"
+      }
+    ],
+    "courses": [
+      "Advanced Computer Graphics",
+      "Principals of Data and System Security",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Computer Vision",
+      "Automata Theory",
+      "Implementation of Programming languages",
+      "Database and Information Systems",
+      "Computer Architecture",
+      "Digital Image Processing",
+      "Operating Systems",
+      "Logic for Computer Science",
+      "Digital Logic Design",
+      "Computer Networks",
+      "Design and Analysis of Algorithms",
+      "Data Structures and Algorithms",
+      "Discrete Structures",
+      "Data Analysis and Interpretation",
+      "Numerical Analysis",
+      "Financial Markets",
+      "Econometrics",
+      "Discrete-time Stochastic Processes",
+      "Continuous-time Stochastic Processes",
+      "Computational Finance",
+      "Machine Learning in Finance",
+      "Portfolio Theory and Asset Pricing",
+      "Case Studies in Risk Management",
+      "Data Feeds and Technology"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "percent": 86
+      },
+      {
+        "name": "Hindi",
+        "percent": 98
+      },
+      {
+        "name": "Marathi",
+        "percent": 55
+      }
+    ]
+  }
 }
