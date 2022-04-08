@@ -15,3 +15,8 @@ type AppAction = {
 }
 
 type DispatchType = (args: AppAction) => AppAction
+
+declare module '*.mp4' {
+  const src: string;
+  export default src;
+}
