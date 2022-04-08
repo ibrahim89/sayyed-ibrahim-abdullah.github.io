@@ -3,11 +3,11 @@ import { Link, useMatch } from 'react-router-dom';
 import CloudDoneIcon from '@mui/icons-material/CloudDone';
 import { Constants } from '../utils/Constants';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
-import DescriptionIcon from '@mui/icons-material/Description';
 import HomeIcon from '@mui/icons-material/Home';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import PersonIcon from '@mui/icons-material/Person';
 import SchoolIcon from '@mui/icons-material/School';
 import TerminalIcon from '@mui/icons-material/Terminal';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
@@ -24,7 +24,7 @@ export const MainListItems = () => (
       <ListItem button component={Link} to={Constants.routes[1]}
                 selected={!!useMatch(Constants.routes[1])}>
         <ListItemIcon>
-          <DescriptionIcon/>
+          <PersonIcon/>
         </ListItemIcon>
         <ListItemText primary="About"/>
       </ListItem>

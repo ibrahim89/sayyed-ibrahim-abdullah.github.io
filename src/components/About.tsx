@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Avatar from '@mui/material/Avatar';
 import { Button } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -6,6 +7,7 @@ import ConstructionIcon from '@mui/icons-material/Construction';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
+import ProfileImage from '../images/profile-pic.jpg';
 import PublicIcon from '@mui/icons-material/Public';
 import SettingsIcon from '@mui/icons-material/Settings';
 import SkateboardingIcon from '@mui/icons-material/Skateboarding';
@@ -26,37 +28,48 @@ export const About = () => {
   return (<div className={'about'}>
     <Typography component={'h4'} variant={'h4'}>About Me</Typography>
     <br/>
-    <Typography component={'h5'} variant={'h5'} color={'textSecondary'}>Programmer, Traveller and
-      Technology Enthusiast</Typography>
-    <br/>
-    <Typography component={'div'} variant={'body1'} color={'textSecondary'}>
-      Software Engineer at&nbsp;
-      <Link href={'https://about.google/'} rel={'noopener'} target={'_blank'}>
-        Google
-      </Link>
-    </Typography>
-    <br/>
-    <Typography component={'div'} variant={'body1'} color={'textSecondary'}>
-      Bachelor of Technology (B.Tech.) with honors in&nbsp;
-      <Link href={'https://www.cse.iitb.ac.in/'} rel={'noopener'} target={'_blank'}>
-        Computer Science & Engineering
-      </Link>
-      ,&nbsp;
-      <Link href={'https://www.iitb.ac.in/'} rel={'noopener'} target={'_blank'}>
-        Indian Institute of Technology Bombay
-      </Link>
-    </Typography>
-    <br/>
-    <Typography component={'div'} variant={'body1'} color={'textSecondary'}>
-      Master of Science in&nbsp;
-      <Link href={'https://www.wqu.edu/programs/mscfe/'} rel={'noopener'} target={'_blank'}>
-        Financial Engineering
-      </Link>
-      ,&nbsp;
-      <Link href={'https://www.wqu.edu/'} rel={'noopener'} target={'_blank'}>
-        WorldQuant University
-      </Link>
-    </Typography>
+    <Grid container spacing={2}>
+      <Grid item xs={12} md={3}>
+        <Avatar
+            alt={'Image'}
+            src={ProfileImage}
+            sx={{ width: 200, height: 200 }}
+        />
+      </Grid>
+      <Grid item xs={12} md={9}>
+        <Typography component={'h5'} variant={'h5'} color={'textSecondary'} textAlign={'left'}>
+          Programmer, Traveller and Technology Enthusiast</Typography>
+        <br/>
+        <Typography component={'div'} variant={'body1'} color={'textSecondary'} textAlign={'left'}>
+          Software Engineer at&nbsp;
+          <Link href={'https://about.google/'} rel={'noopener'} target={'_blank'}>
+            Google
+          </Link>
+        </Typography>
+        <br/>
+        <Typography component={'div'} variant={'body1'} color={'textSecondary'} textAlign={'left'}>
+          Bachelor of Technology (B.Tech.) with honors in&nbsp;
+          <Link href={'https://www.cse.iitb.ac.in/'} rel={'noopener'} target={'_blank'}>
+            Computer Science & Engineering
+          </Link>
+          ,&nbsp;
+          <Link href={'https://www.iitb.ac.in/'} rel={'noopener'} target={'_blank'}>
+            Indian Institute of Technology Bombay
+          </Link>
+        </Typography>
+        <br/>
+        <Typography component={'div'} variant={'body1'} color={'textSecondary'} textAlign={'left'}>
+          Master of Science in&nbsp;
+          <Link href={'https://www.wqu.edu/programs/mscfe/'} rel={'noopener'} target={'_blank'}>
+            Financial Engineering
+          </Link>
+          ,&nbsp;
+          <Link href={'https://www.wqu.edu/'} rel={'noopener'} target={'_blank'}>
+            WorldQuant University
+          </Link>
+        </Typography>
+      </Grid>
+    </Grid>
     <br/>
     <Grid container spacing={2}>
       <Grid item xs={12} md={4}>
@@ -197,8 +210,9 @@ export const About = () => {
             </Grid>
           </Grid>
           <br/>
-          <Button href={'/resume.pdf'} rel={'noopener'} target={'_blank'}>View/Download
+          <Button href={'/resume.pdf'} rel={'noopener'} target={'_blank'} variant={'contained'}>View/Download
             Resume</Button>
+          <br/>
           <br/>
           <div>
             <iframe className={'mymap'}
