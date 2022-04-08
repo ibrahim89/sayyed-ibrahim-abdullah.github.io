@@ -17,6 +17,7 @@ export const Contact = () => {
   const [email, setEmail] = React.useState('');
   const [subject, setSubject] = React.useState('');
   const [message, setMessage] = React.useState('');
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [serverState, setServerState] = React.useState({
     submitting: false,
     status: null
