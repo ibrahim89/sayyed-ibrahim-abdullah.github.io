@@ -38,6 +38,11 @@ code {
   margin-bottom: 10px;
 }
 
+.contact-email {
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
 @media (max-width: 480px) {
   .home {
     background-image: url("./images/background-mobile.jpg");

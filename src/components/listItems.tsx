@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Link, useMatch } from 'react-router-dom';
-import AssignmentIcon from '@mui/icons-material/Assignment';
 import CloudDoneIcon from '@mui/icons-material/CloudDone';
 import { Constants } from '../utils/Constants';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
 import DescriptionIcon from '@mui/icons-material/Description';
 import HomeIcon from '@mui/icons-material/Home';
 import ListItem from '@mui/material/ListItem';
@@ -64,7 +64,7 @@ export const SecondaryListItems = () => (
       <ListItem button component={Link} to={Constants.routes[6]}
                 selected={!!useMatch(Constants.routes[6])}>
         <ListItemIcon>
-          <AssignmentIcon/>
+          <ContactMailIcon/>
         </ListItemIcon>
         <ListItemText primary="Contact"/>
       </ListItem>
