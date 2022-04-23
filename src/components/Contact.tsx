@@ -2,12 +2,16 @@ import * as React from 'react';
 import { Button } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import CircularProgress from '@mui/material/CircularProgress';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Grid from '@mui/material/Grid';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from '@mui/material/Link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MuiAlert from '@mui/material/Alert';
+import SendIcon from '@mui/icons-material/Send';
+import Snackbar from '@mui/material/Snackbar';
 import TextField from '@mui/material/TextField';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Typography from '@mui/material/Typography';
@@ -17,15 +21,36 @@ export const Contact = () => {
   const [email, setEmail] = React.useState('');
   const [subject, setSubject] = React.useState('');
   const [message, setMessage] = React.useState('');
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [serverState, setServerState] = React.useState({
     submitting: false,
-    status: null
+    status: ''
   });
+  const [openSnackbar, setOpenSnackbar] = React.useState(false);
+  const handleSnackbarClose = () => setOpenSnackbar(false);
   const sendEmail = () => {
-    setServerState({ submitting: true, status: null });
-    alert('Sorry, this feature is not implemented yet.');
-    console.log('Send button clicked');
+    setServerState({ submitting: true, status: '' });
+    const data = new FormData();
+    data.append('name', name);
+    data.append('email', email);
+    data.append('subject', subject);
+    data.append('message', message);
+    fetch('https://script.google.com/macros/s/AKfycbxp7ixnN0zZsWfNEoVB2mNoMpT5yJq_WaC3tRm2GnDEaTlSG8mKCMRvJkYjSKejIPPX/exec', {
+      mode: 'no-cors',
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: data
+    })
+    .then(() => {
+      setServerState({ submitting: false, status: 'OK' });
+      setOpenSnackbar(true);
+    })
+    .catch(() => setServerState({ submitting: false, status: 'ERROR' }))
+    .finally(() => {
+      setName('');
+      setEmail('');
+      setSubject('');
+      setMessage('');
+    });
   };
   return (<div className={'contacts'}>
     <Typography component={'h4'} variant={'h4'}>Contact Me</Typography>
@@ -76,23 +101,44 @@ export const Contact = () => {
       <Grid item xs={12} md={6}>
         <Card elevation={3}>
           <CardContent>
-            <Typography variant={'h5'} align={'left'}>
-              Say Hello
-            </Typography>
-            <TextField id="say-hello-name" label="Name" variant="standard" fullWidth value={name}
-                       onChange={e => setName(e.target.value)}/>
-            <TextField id="say-hello-email" label="Email" variant="standard" fullWidth value={email}
-                       onChange={e => setEmail(e.target.value)}/>
-            <TextField id="say-hello-subject" label="Subject" variant="standard" fullWidth
-                       value={subject} onChange={e => setSubject(e.target.value)}/>
-            <TextField id="say-hello-message" label="Message" variant="standard" fullWidth multiline
-                       minRows={3} value={message} onChange={e => setMessage(e.target.value)}/>
-            <br/>
-            <br/>
-            <Button variant={'contained'} onClick={sendEmail}>Send</Button>
+            {(() => {
+              if (serverState.submitting) {
+                return (<CircularProgress/>);
+              } else {
+                if (serverState.status === 'ERROR') {
+                  return (<div> Something went wrong.</div>);
+                } else {
+                  return (<div>
+                    <Typography variant={'h5'} align={'left'}>
+                      Say Hello
+                    </Typography>
+                    <TextField id="say-hello-name" label="Name" variant="standard" fullWidth
+                               value={name} onChange={e => setName(e.target.value)}/>
+                    <TextField id="say-hello-email" label="Email" variant="standard" fullWidth
+                               value={email} onChange={e => setEmail(e.target.value)}/>
+                    <TextField id="say-hello-subject" label="Subject" variant="standard" fullWidth
+                               value={subject} onChange={e => setSubject(e.target.value)}/>
+                    <TextField id="say-hello-message" label="Message" variant="standard" fullWidth
+                               multiline minRows={3} value={message}
+                               onChange={e => setMessage(e.target.value)}/>
+                    <br/>
+                    <br/>
+                    <Button variant={'contained'} onClick={sendEmail} disabled={message === ''}
+                            endIcon={<SendIcon/>}>
+                      Send
+                    </Button>
+                  </div>);
+                }
+              }
+            })()}
           </CardContent>
         </Card>
       </Grid>
     </Grid>
+    <Snackbar open={openSnackbar} autoHideDuration={6000} onClose={handleSnackbarClose}>
+      <MuiAlert onClose={handleSnackbarClose} severity="success" sx={{ width: '100%' }}>
+        Message sent successfully!
+      </MuiAlert>
+    </Snackbar>
   </div>);
 };
