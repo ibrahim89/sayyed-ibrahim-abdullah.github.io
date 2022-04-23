@@ -13,8 +13,15 @@ import TerminalIcon from '@mui/icons-material/Terminal';
 import Tooltip from '@mui/material/Tooltip';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 
+const scrollToTop = () => {
+  const topDiv = document.querySelector('#scroll-top');
+  if (topDiv) {
+    topDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
+
 export const MainListItems = () => (
-    <div>
+    <div onClick={scrollToTop}>
       <Tooltip title={'Home'} placement={'right'}>
         <ListItem button component={Link} to={Constants.routes[0]}
                   selected={!!useMatch(Constants.routes[0])}>
@@ -73,7 +80,7 @@ export const MainListItems = () => (
 );
 
 export const SecondaryListItems = () => (
-    <div>
+    <div onClick={scrollToTop}>
       <Tooltip title={'Contact'} placement={'right'}>
         <ListItem button component={Link} to={Constants.routes[6]}
                   selected={!!useMatch(Constants.routes[6])}>

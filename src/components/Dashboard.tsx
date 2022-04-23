@@ -174,6 +174,7 @@ const DashboardContent: React.FC<DashboardContentProps> = ({ toggleTheme }) => {
               overflow: 'auto',
             }}
         >
+          <div id={'scroll-top'}/>
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Paper
