@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e6878c6.css",
+    "main.js": "/static/js/main.54e8d58f.js",
+    "static/js/787.8c6f5c49.chunk.js": "/static/js/787.8c6f5c49.chunk.js",
+    "static/media/background-desktop-ibr.jpg": "/static/media/background-desktop-ibr.481f84f6aab09c186e30.jpg",
+    "static/media/background-mobile-ibr.jpg": "/static/media/background-mobile-ibr.7ac617964f57ef7c95e8.jpg",
+    "static/media/experience1.jpg": "/static/media/experience1.7ccc2dfb9b1db3d616e1.jpg",
+    "static/media/education.jpg": "/static/media/education.49e9beac418fb40d022d.jpg",
+    "static/media/experience.jpg": "/static/media/experience.d3c330183110185ce204.jpg",
+    "static/media/education1.jpg": "/static/media/education1.11f0917859cc6c2cdded.jpg",
+    "index.html": "/index.html",
+    "main.9e6878c6.css.map": "/static/css/main.9e6878c6.css.map",
+    "main.54e8d58f.js.map": "/static/js/main.54e8d58f.js.map",
+    "787.8c6f5c49.chunk.js.map": "/static/js/787.8c6f5c49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e6878c6.css",
+    "static/js/main.54e8d58f.js"
+  ]
+}
