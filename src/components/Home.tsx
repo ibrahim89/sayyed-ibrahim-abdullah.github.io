@@ -9,13 +9,14 @@ export const Home = () => {
       </Typography>
       <Typography component={'h3'} variant={'h3'} align={'left'}>
         <span className={'intro'}>
-          <span className={'intro-initial'}>T</span>ejesh &nbsp;
-          <span className={'intro-initial'}>R</span>aut
+          <span className={'intro-initial'}>S</span>ayyed &nbsp;
+          <span className={'intro-initial'}>I</span>brahim &nbsp;
+          <span className={'intro-initial'}>A</span>bdullah 
         </span>
       </Typography>
       <Typography component={'span'} variant={'body1'} align={'left'}>
-        <p className={'designation'}>Software Engineer at Google</p>
-        <p className={'designation'}>B.Tech. in Computer Science, IIT Bombay</p>
+        <p className={'designation'}>Software Engineer at Cognizant</p>
+        <p className={'designation'}>Msc. in Computer Science, SVS College, Chhindwara (M.P)</p>
       </Typography>
     </div>
   </div>);

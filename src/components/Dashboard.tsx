@@ -112,7 +112,7 @@ const DashboardContent: React.FC<DashboardContentProps> = ({ toggleTheme }) => {
   return (
       <Box sx={{ display: 'flex' }}>
         <CssBaseline />
-        <AppBar position="absolute" open={open}>
+        <AppBar position="absolute" open={open} sx={{bgcolor:"0097a7"}} >
           <Toolbar
               sx={{
                 pr: '24px', // keep right padding when drawer closed
@@ -137,7 +137,7 @@ const DashboardContent: React.FC<DashboardContentProps> = ({ toggleTheme }) => {
                 noWrap
                 sx={{ flexGrow: 1 }}
             >
-              TEJESH
+              IBRAHIM
             </Typography>
             <IconButton sx={{ ml: 1 }} onClick={toggleTheme} color="inherit">
               {theme.palette.mode === Constants.themeType.dark ? <Brightness7Icon /> : <Brightness4Icon />}

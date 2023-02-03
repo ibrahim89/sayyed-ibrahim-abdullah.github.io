@@ -45,7 +45,7 @@ code {
 
 @media (max-width: 480px) {
   .home {
-    background-image: url("./images/background-mobile.jpg");
+    background-image: url("./images/background-mobile-ibr.jpg");
     min-height: 420px;
   }
   .home-text {
@@ -61,7 +61,7 @@ code {
 
 @media (min-width: 481px) {
   .home {
-    background-image: url("./images/background-desktop.jpg");
+    background-image: url("./images/background-desktop-ibr.jpg");
     min-height: 700px;
   }
   .home-text {

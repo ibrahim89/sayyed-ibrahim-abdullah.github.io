@@ -10,7 +10,8 @@ import Paper from '@mui/material/Paper';
 import ProfileImage from '../images/profile-pic.jpg';
 import PublicIcon from '@mui/icons-material/Public';
 import SettingsIcon from '@mui/icons-material/Settings';
-import SkateboardingIcon from '@mui/icons-material/Skateboarding';
+import SnowshoeingIcon from '@mui/icons-material/Snowshoeing';
+import Api from '@mui/icons-material/Api'
 import Typography from '@mui/material/Typography';
 
 const getAge = (birthYear: number, birthMonth: number, birthDay: number): number => {
@@ -42,30 +43,22 @@ export const About = () => {
         <br/>
         <Typography component={'div'} variant={'body1'} color={'textSecondary'} textAlign={'left'}>
           Software Engineer at&nbsp;
-          <Link href={'https://about.google/'} rel={'noopener'} target={'_blank'}>
-            Google
+          <Link href={'https://www.cognizant.com/us/en/about-cognizant'} rel={'noopener'} target={'_blank'}>
+            Cognizant
           </Link>
         </Typography>
         <br/>
         <Typography component={'div'} variant={'body1'} color={'textSecondary'} textAlign={'left'}>
-          Bachelor of Technology (B.Tech.) with honors in&nbsp;
-          <Link href={'https://www.cse.iitb.ac.in/'} rel={'noopener'} target={'_blank'}>
-            Computer Science & Engineering
-          </Link>
-          ,&nbsp;
-          <Link href={'https://www.iitb.ac.in/'} rel={'noopener'} target={'_blank'}>
-            Indian Institute of Technology Bombay
-          </Link>
+          Bachelor of Computer Application (B.C.A) &nbsp;
+         
+          <Link href={'http://svscomputers.co.in/'} rel={'noopener'} target={'_blank'}>
+          SVS College, Chhindwara (M.P.)</Link>
         </Typography>
         <br/>
         <Typography component={'div'} variant={'body1'} color={'textSecondary'} textAlign={'left'}>
-          Master of Science in&nbsp;
-          <Link href={'https://www.wqu.edu/programs/mscfe/'} rel={'noopener'} target={'_blank'}>
-            Financial Engineering
-          </Link>
-          ,&nbsp;
-          <Link href={'https://www.wqu.edu/'} rel={'noopener'} target={'_blank'}>
-            WorldQuant University
+          Master of Science (MSc.) in &nbsp;Computer Science,&nbsp;
+          <Link href={'http://svscomputers.co.in/'} rel={'noopener'} target={'_blank'}>
+          SVS College, Chhindwara (M.P.)
           </Link>
         </Typography>
       </Grid>
@@ -79,7 +72,7 @@ export const About = () => {
               <CardContent>
                 <SettingsIcon fontSize={'large'}/>
                 <Typography variant={'body2'} color={'text.secondary'}>
-                  Java, Typescript, Bash, Scala, Spark, C++, Python, SQL
+                  Java, Javascript, C, C++, SQL
                 </Typography>
                 <Typography gutterBottom variant={'h5'} component={'div'}>
                   Programming
@@ -92,7 +85,7 @@ export const About = () => {
               <CardContent>
                 <ConstructionIcon fontSize={'large'}/>
                 <Typography variant={'body2'} color={'text.secondary'}>
-                  Git, Jenkins, Hadoop, HBase, Android Studio, Impala, OpenGL, Matlab
+                  Git, Jenkins, STS4, Eclipse, Intellij, Visual Studio Code, pgAdmin
                 </Typography>
                 <Typography gutterBottom variant={'h5'} component={'div'}>
                   Softwares
@@ -103,9 +96,22 @@ export const About = () => {
           <Grid item xs={12} md={12}>
             <Card elevation={3}>
               <CardContent>
+                <Api fontSize={'large'}/>
+                <Typography variant={'body2'} color={'text.secondary'}>
+                  Spring Boot, JPA, Hibernate, Microservices
+                </Typography>
+                <Typography gutterBottom variant={'h5'} component={'div'}>
+                  Framework
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={12}>
+            <Card elevation={3}>
+              <CardContent>
                 <PublicIcon fontSize={'large'}/>
                 <Typography variant={'body2'} color={'text.secondary'}>
-                  React, Redux, Material UI, HTML, CSS
+                  React, Redux, Bootstrap, Ant Design, HTML, CSS
                 </Typography>
                 <Typography gutterBottom variant={'h5'} component={'div'}>
                   Web Development
@@ -116,9 +122,9 @@ export const About = () => {
           <Grid item xs={12} md={12}>
             <Card elevation={3}>
               <CardContent>
-                <SkateboardingIcon fontSize={'large'}/>
+                <SnowshoeingIcon fontSize={'large'}/>
                 <Typography variant={'body2'} color={'text.secondary'}>
-                  Travelling, Trekking, Programming, Games, Social Service
+                Travelling, Programming, Quran Ricitation, Social Service
                 </Typography>
                 <Typography gutterBottom variant={'h5'} component={'div'}>
                   Hobbies
@@ -141,7 +147,7 @@ export const About = () => {
             <Grid item xs={9} md={8}>
               <Typography variant={'body1'} color={'text.secondary'} textAlign={'left'}
                           paddingLeft={3}>
-                Tejesh Raut
+                Sayyed Ibrahim Abdullah
               </Typography>
             </Grid>
           </Grid>
@@ -156,7 +162,7 @@ export const About = () => {
             <Grid item xs={9} md={8}>
               <Typography variant={'body1'} color={'text.secondary'} textAlign={'left'}
                           paddingLeft={3}>
-                {getAge(1996, 2, 22)} years
+                {getAge(1989, 9, 1)} years
               </Typography>
             </Grid>
           </Grid>
@@ -171,8 +177,8 @@ export const About = () => {
             <Grid item xs={9} md={8} rowSpacing={20}>
               <Typography variant={'body1'} color={'text.secondary'} textAlign={'left'}
                           paddingLeft={3}>
-                <Link href={'mailto:tejesh22.raut@gmail.com'}>
-                  tejesh22.raut@gmail.com
+                <Link href={' ibraheem.innowave@gmail.com'}>
+                ibraheem.innowave@gmail.com
                 </Link>
               </Typography>
             </Grid>
@@ -188,8 +194,8 @@ export const About = () => {
             <Grid item xs={9} md={8}>
               <Typography variant={'body1'} color={'text.secondary'} textAlign={'left'}
                           paddingLeft={3}>
-                <Link href={'https://tejesh-raut.github.io/'} rel={'noopener'} target={'_blank'}>
-                  tejesh-raut.github.io
+                <Link href={'https://sayyed-ibrahim-abdullah.github.io/'} rel={'noopener'} target={'_blank'}>
+                  sayyed-ibrahim-abdullah.github.io
                 </Link>
               </Typography>
             </Grid>
@@ -205,7 +211,7 @@ export const About = () => {
             <Grid item xs={9} md={8}>
               <Typography variant={'body1'} color={'text.secondary'} textAlign={'left'}
                           paddingLeft={3}>
-                Beed - 431122, Maharashtra
+                Chhindwara - 480001, Madhya Pradesh
               </Typography>
             </Grid>
           </Grid>
@@ -213,10 +219,10 @@ export const About = () => {
           <Button href={'/resume.pdf'} rel={'noopener'} target={'_blank'} variant={'contained'}>View/Download
             Resume</Button>
           <br/>
-          <br/>
+          <br/> 
           <div>
             <iframe className={'mymap'}
-                    src={'https://www.google.com/maps/d/embed?mid=1Y2M6LWeN2fmlwPv1ywb31STA4QqVacz0&z=4'}/>
+                    src={'https://www.google.com/maps/d/embed?mid=1Lg-D1src8F_wKQ1M47LjnSxK_k33SA0&z=4'}/>
           </div>
         </Paper>
       </Grid>

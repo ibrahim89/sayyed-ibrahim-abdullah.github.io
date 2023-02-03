@@ -59,42 +59,33 @@ export const Contact = () => {
       My contact details and accounts on some famous sites:
     </Typography>
     <Grid container spacing={2}>
-      <Grid item xs={3} md={2}>
-        <Link href={'https://github.com/Tejesh-Raut'} rel={'noopener'} target={'_blank'}>
+      <Grid item xs={3} md={4}>
+        <Link href={'https://github.com/ibrahim89'} rel={'noopener'} target={'_blank'}>
           <GitHubIcon fontSize={'large'} color={'action'}/>
         </Link>
       </Grid>
-      <Grid item xs={3} md={2}>
-        <Link href={'https://www.linkedin.com/in/tejesh-raut'} rel={'noopener'} target={'_blank'}>
+      <Grid item xs={3} md={4}>
+        <Link href={'https://www.linkedin.com/in/ibrahim-abdullah-491279131/'} rel={'noopener'} target={'_blank'}>
           <LinkedInIcon fontSize={'large'} color={'action'}/>
         </Link>
       </Grid>
-      <Grid item xs={3} md={2}>
-        <Link href={'https://www.facebook.com/Tejesh.Tukaram.Raut'} rel={'noopener'}
+      <Grid item xs={3} md={4}>
+        <Link href={'https://www.facebook.com/ibrahim.s.5477'} rel={'noopener'}
               target={'_blank'}>
           <FacebookIcon fontSize={'large'} color={'action'}/>
         </Link>
       </Grid>
-      <Grid item xs={3} md={2}>
-        <Link href={'https://www.instagram.com/tejeshraut'} rel={'noopener'} target={'_blank'}>
-          <InstagramIcon fontSize={'large'} color={'action'}/>
-        </Link>
-      </Grid>
-      <Grid item xs={3} md={2}>
-        <Link href={'https://twitter.com/Tejesh_Raut'} rel={'noopener'} target={'_blank'}>
-          <TwitterIcon fontSize={'large'} color={'action'}/>
-        </Link>
-      </Grid>
+     
     </Grid>
     <br/>
-    <Link href={'mailto:tejesh22.raut@gmail.com'}>
+    <Link href={'mailto:ibraheem.innowave@gmail.com'}>
       <Typography variant={'h5'}>
-        <span className={'contact-email'}>tejesh22.raut@gmail.com</span>
+        <span className={'contact-email'}>ibraheem.innowave@gmail.com</span>
       </Typography>
     </Link>
     <br/>
     <Typography variant={'body2'}>
-      Beed - 431122, Maharashtra
+      Chhindwara - 480001, Madhya Pradesh
     </Typography>
     <br/>
     <Grid container spacing={2}>

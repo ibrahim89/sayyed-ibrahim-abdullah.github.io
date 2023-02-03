@@ -1,114 +1,107 @@
 {
-  "author": "Tejesh Raut",
-  "authorWebpage": "https://tejesh-raut.github.io/",
+  "author": "Sayyed Ibrahim Abdullah",
+  "authorWebpage": "https://ibrahim89.github.io/",
   "education": [
     {
-      "timePeriod": "2019-2021",
-      "name": "WorldQuant University",
-      "degree": "Master of Science (M.Sc.) in Financial Engineering"
+    "timePeriod": "2016-2017",
+    "name": "NIIT Mumbai",
+    "degree": "Professional Diploma in Digital Transformation Program - Java Apps with Devops"
+  },
+    {
+      "timePeriod": "2014-2016",
+      "name": " SVS College, Chhindwara",
+      "degree": "Master of Science (M.Sc.) in Computer Science"
     },
     {
-      "timePeriod": "2014-2018",
-      "name": "Indian Institute of Technology Bombay",
-      "degree": "Bachelor of Technology (B.Tech.) with honors in Computer Science & Engineering"
+      "timePeriod": "2009-2011",
+      "name": "SVS College, Chhindwara",
+      "degree": "Bachelor of Computer Application (B.C.A.)"
     },
     {
-      "timePeriod": "2012-2014",
-      "name": "Balbhim College, Beed",
+      "timePeriod": "2007-2008",
+      "name": "Rashtrasant Tukadoji Maharaj Nagpur University",
+      "degree": "Junior Diploma in Oriental Learning Arabic"
+    },
+    {
+      "timePeriod": "2006-2007",
+      "name": "Madarsa Board Bhopal",
       "degree": "12th (HSC board)"
     },
     {
-      "timePeriod": "2006-2012",
-      "name": "St. Ann's school, Beed",
-      "degree": "10th (ICSE board)"
+      "timePeriod": "2004-2005",
+      "name": "Madarsa Board Bhopal",
+      "degree": "10th"
+    },
+    
+    {
+      "timePeriod": "2001-2003",
+      "name": "Al Jamia Tus Salafiah, Varanasi",
+      "degree": "Hifz-Ul-Quran-Il-Karim"
     },
     {
-      "timePeriod": "2003-2006",
-      "name": "Kendriya Vidyalaya, Kathmandu",
+      "timePeriod": "1995-2000",
+      "name": "Anjuman Urdu Primary School, Chhindwara",
       "degree": "Upto 5th class"
     }
   ],
   "experience": [
     {
-      "timePeriod": "Apr'22 - Present",
-      "name": "Google",
-      "position": "Software Engineer L4",
-      "description": "Part of Integration Platform team in Google Cloud Business Platform"
-    },
-    {
-      "timePeriod": "Jul'18 - Apr'22",
-      "name": "JP Morgan Chase and Co.",
+      "timePeriod": "Jul'21 - Present",
+      "name": "Cognizant",
       "position": "Associate Software Engineer",
-      "description": "Java, Big data and frontend development"
+      "description": "Java Full Stak Web Development"
     },
     {
-      "timePeriod": "May'17 - Jul'17",
-      "name": "Autodesk",
-      "position": "Intern",
-      "description": "Augmented-Reality in shop floor management"
+      "timePeriod": "Jul'19 - Jul'21",
+      "name": "NSEIT Ltd",
+      "position": "Associate Software Engineer",
+      "description": "Java Full Stack Web Development"
     },
     {
-      "timePeriod": "May'16 - Jul'16",
-      "name": "Tech Mahindra",
-      "position": "Intern",
-      "description": "Machine Translation and Natural Language Processing"
+      "timePeriod": "Jul'18 - Jun'19",
+      "name": "S2 Infotech International Ltd.",
+      "position": "Java Developer",
+      "description": "Java Full Stack Web Development"
     },
     {
-      "timePeriod": "Nov'15 - Dec'15",
-      "name": "Darwin Travel Tech",
-      "position": "Intern",
-      "description": "Backend Development of website"
+      "timePeriod": "March'17 - Jun'18",
+      "name": "Genesys International Corporation limited",
+      "position": "Software Trainee",
+      "description": "Java Full Stack Web Development"
+    },
+    {
+      "timePeriod": "April'13 - April'14",
+      "name": "Kendriya Vidyalaya No.1 Chhindwara",
+      "position": "Computer Instructor",
+      "description": "Computer Teaching from 6th to 10th Standard"
     }
   ],
   "skills": {
     "achievements": [
       {
-        "title": "JEE Advanced",
-        "description": "Achieved All India rank 375 in JEE Advanced 2014 amongst 0.15 million candidates"
-      },
-      {
-        "title": "JEE Mains",
-        "description": "Secured All India percentile score 99.93 in JEE Mains 2014 amongst 1.4 million candidates"
-      },
-      {
-        "title": "IIM CAT",
-        "description": "Scored Overall Percentile 98.37 in IIM CAT(Common Admission Test) 2017"
-      },
-      {
-        "title": "Maharashtra Scholarship",
-        "description": "Awarded Maharashtra State Scholarship , 2009 with 99.99 percentile score in state"
+        "title": "HSC",
+        "description": "Received Certificate from Madhya Pradesh Urdu Academy for highest marks in HSC Urdu Subject"
       }
+      
     ],
     "courses": [
-      "Advanced Computer Graphics",
-      "Principals of Data and System Security",
-      "Machine Learning",
-      "Artificial Intelligence",
-      "Computer Vision",
-      "Automata Theory",
-      "Implementation of Programming languages",
-      "Database and Information Systems",
-      "Computer Architecture",
-      "Digital Image Processing",
-      "Operating Systems",
-      "Logic for Computer Science",
-      "Digital Logic Design",
-      "Computer Networks",
-      "Design and Analysis of Algorithms",
-      "Data Structures and Algorithms",
-      "Discrete Structures",
-      "Data Analysis and Interpretation",
-      "Numerical Analysis",
-      "Financial Markets",
-      "Econometrics",
-      "Discrete-time Stochastic Processes",
-      "Continuous-time Stochastic Processes",
-      "Computational Finance",
-      "Machine Learning in Finance",
-      "Portfolio Theory and Asset Pricing",
-      "Case Studies in Risk Management",
-      "Data Feeds and Technology"
-    ],
+      "Java",
+      "Spring Boot",
+      "Spring MVC 4",
+      "Maven",
+      "Hibernate",
+      "JPA",
+      "React",
+      "Redux",
+      "Angular",
+      "Angular JS",
+      "JavaScript",
+      "JQuery",
+      "HTML",
+      "Bootstrap",
+      "CSS",
+      "SQL"
+      ],
     "languages": [
       {
         "name": "English",
@@ -116,10 +109,14 @@
       },
       {
         "name": "Hindi",
+        "percent": 96
+      },
+      {
+        "name": "Urdu",
         "percent": 98
       },
       {
-        "name": "Marathi",
+        "name": "Arabic",
         "percent": 55
       }
     ]

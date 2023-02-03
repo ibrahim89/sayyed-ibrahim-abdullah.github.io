@@ -1,9 +1,9 @@
-# Tejesh Raut
+# Sayyed Ibrahim Abdullah
 
-[![Website](https://img.shields.io/website?label=Tejesh-Raut.github.io&style=for-the-badge&url=https%3A%2F%2FTejesh-Raut.github.io)](https://tejesh-raut.github.io)
+[![Website](https://img.shields.io/website?label=ibrahim89/sayyed-ibrahim-abdullah.github.io&style=for-the-badge&url=https%3A%2F%2Fibrahim89.github.io)](https://ibrahim89/sayyed-ibrahim-abdullah.github.io)
 
 
-[![Node.js CI](https://github.com/Tejesh-Raut/Tejesh-Raut.github.io/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/Tejesh-Raut/Tejesh-Raut.github.io/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/ibrahim89/sayyed-ibrahim-abdullah.github.io/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ibrahim89/sayyed-ibrahim-abdullah.github.io/actions/workflows/node.js.yml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
