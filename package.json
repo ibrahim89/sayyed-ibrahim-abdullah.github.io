@@ -1,8 +1,8 @@
 {
   "name": "sayyed-ibrahim-abdullah.github.io",
-  "homepage": "https://ibrahim89.github.io/sayyed-ibrahim-abdullah.github.io",
+  "homepage": "https://sayyed-ibrahim-abdullah.github.io",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
