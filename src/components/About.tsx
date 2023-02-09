@@ -216,7 +216,7 @@ export const About = () => {
             </Grid>
           </Grid>
           <br/>
-          <Button href={'/resume.pdf'} rel={'noopener'} target={'_blank'} variant={'contained'}>View/Download
+          <Button href={'https://ibrahim89.github.io/sayyed-ibrahim-abdullah.github.io/resume.pdf'} rel={'noopener'} target={'_blank'} variant={'contained'}>View/Download
             Resume</Button>
           <br/>
           <br/> 

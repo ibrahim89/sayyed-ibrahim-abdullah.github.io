@@ -35,13 +35,16 @@ export const Projects = () => {
                     MGM is American Express Member-Get-Member Programme is all about expanding the well established card portfolio of AMEX by referring to colleagues or friends as new potential customers.
                     </li>
                     <li>
-                    worked on prospect journey for configuring How You Earn section for multiple international market.
+                     Involved in development of application level coding, database design & deployment.
                     </li>
                     <li>
-                    worked on ECMS tool for making enhancement in content editor and dashboard.
+                    Involved in UI development using HTML, Javascript & React.
                     </li>
                     <li>
-                    Resolved technical issues from existing microservices like Eligibility, Content, prospect etc.
+                    Responsible for debugging, writing test cases & performing unit testing & integration testing.
+                    </li>
+                    <li>
+                    Responsible for updating functional & technical documents.
                     </li>
                   </ul>
                 </Typography>
