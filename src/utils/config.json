@@ -24,12 +24,12 @@
     },
     {
       "timePeriod": "2006-2007",
-      "name": "Madarsa Board Bhopal",
+      "name": "MP Board Bhopal",
       "degree": "12th (HSC board)"
     },
     {
       "timePeriod": "2004-2005",
-      "name": "Madarsa Board Bhopal",
+      "name": "MP Board Bhopal",
       "degree": "10th"
     },
     
@@ -87,10 +87,12 @@
     "courses": [
       "Java",
       "Spring Boot",
+      "Microservices",
       "Spring MVC 4",
       "Maven",
       "Hibernate",
       "JPA",
+      "Vertx",
       "React",
       "Redux",
       "Angular",

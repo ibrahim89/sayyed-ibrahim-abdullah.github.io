@@ -11,6 +11,37 @@ export const Projects = () => {
     <Typography component={'h4'} variant={'h4'}>Projects</Typography>
     <br/>
     <Grid container spacing={2}>
+    <Card elevation={3}>
+          <CardContent>
+            <Grid container spacing={2}>
+              <Grid item xs={12} md={12}>
+                <Typography variant={'h5'} textAlign={'left'}>
+                 Finance BPM
+                </Typography>
+                <Typography variant={'body1'} textAlign={'right'} sx={{ fontStyle: 'italic' }}>
+                  (Feb'23 - Present)
+                </Typography>
+                <Typography variant={'body1'} textAlign={'left'} sx={{ fontStyle: 'italic' }}>
+                  (Joined this team while working in Cognizant)
+                </Typography>
+                <Typography component={'div'} variant={'body2'} textAlign={'left'}>
+                  <ul>
+                  <li>
+                      Project in <b>Java - vertx</b> with <b>React</b> and <b>Postgres Database</b>
+                    </li>
+                    <li>
+                     Worked on OFF BALANCE DISCLOSURE SHEET APP under Fianance BPM Project.
+                    </li>
+                    <li>
+                     Worked on SALES AND USE TAX APP under Fianance BPM Project.
+                    </li>
+                  </ul>
+                </Typography>
+               
+              </Grid>
+            </Grid>
+          </CardContent>
+        </Card>
       {/**Project In Cognizant with MGM Team */}
       <Grid item md={12}>
         <Card elevation={3}>
